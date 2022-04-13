@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id='convert' oninput="out.value = (Math.round(10000*(feet.value / 3.281))/10000)">
+
+    <label for='feet'>Feet: </label>
+    <input id='feet' type='number' min='0.000'>
+
+    <label>Meter: </label>
+    <output id='out' for='feet'></output>
+
+</form>
+</body>
+</html>
